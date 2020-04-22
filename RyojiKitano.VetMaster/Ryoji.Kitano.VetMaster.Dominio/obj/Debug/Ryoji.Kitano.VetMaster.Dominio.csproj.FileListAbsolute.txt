@@ -1,0 +1,5 @@
+C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\Ryoji.Kitano.VetMaster.Dominio\bin\Debug\Ryoji.Kitano.VetMaster.Dominio.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\Ryoji.Kitano.VetMaster.Dominio\bin\Debug\Ryoji.Kitano.VetMaster.Dominio.pdb
+C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\Ryoji.Kitano.VetMaster.Dominio\obj\Debug\Ryoji.Kitano.VetMaster.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\Ryoji.Kitano.VetMaster.Dominio\obj\Debug\Ryoji.Kitano.VetMaster.Dominio.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\Ryoji.Kitano.VetMaster.Dominio\obj\Debug\Ryoji.Kitano.VetMaster.Dominio.pdb
