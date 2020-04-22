@@ -11,7 +11,7 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
     {
         protected override void ConfigurarNomeTabela()
         {
-            ToTable("ANM_Animais");
+            ToTable("ANM_ANIMAIS");
         }
 
         protected override void ConfigurarCampoTabela()
@@ -25,6 +25,10 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                 .IsOptional()
                 .HasMaxLength(40)
                 .HasColumnName("ANM_NOME_DONO");
+
+            Property(p => p.Idade)
+                .HasColumnName("IDADE")
+                .IsOptional();
 
             Property(p => p.Raça)
                 .HasMaxLength(40)
@@ -49,6 +53,8 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
             HasRequired(p => p.Veterinario)
                 .WithMany(p => p.Animais)
                 .HasForeignKey(fk => fk.IdVeterinario);
+
+
         }
     }
 }

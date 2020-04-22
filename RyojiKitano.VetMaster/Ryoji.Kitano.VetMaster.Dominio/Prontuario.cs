@@ -11,7 +11,10 @@ namespace Ryoji.Kitano.VetMaster.Dominio
         public DateTime DataHoraAtendimento { get; set; }
         public string Observacoes { get; set; }
         public virtual Veterinario Veterinario { get; set; }
+
+        public virtual List<Veterinario> Veterinarios { get; set; }
         public int IdVeterinario { get; set; }
+        
 
     }
 }

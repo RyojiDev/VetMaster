@@ -32,6 +32,9 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                 .IsRequired()
                 .HasColumnName("PRT_DATA_HORA_ATENDIMENTO");
 
+            Property(p => p.IdVeterinario)
+                .HasColumnName("PRT_VETERINARIO_ID");
+
 
         }
 
@@ -42,9 +45,9 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
 
         protected override void ConfigurarChavesEstrangeiras()
         {
-            HasRequired(p => p.Veterinario)
+            /*HasRequired(p => p.Veterinario)
                 .WithMany(fk => fk.Prontuarios)
-                .HasForeignKey(fk => fk.IdVeterinario);
+                .HasForeignKey(fk => fk.IdVeterinario);*/
         }
     }
 }

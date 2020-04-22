@@ -13,7 +13,7 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
     {
         protected override void ConfigurarNomeTabela()
         {
-            ToTable("VET_VETERINARIOs");
+            ToTable("VET_VETERINARIOS");
         }
 
         protected override void ConfigurarCampoTabela()
@@ -42,8 +42,18 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                 .IsRequired()
                 .HasColumnType("DateTime")
                 .HasColumnName("VET_DATA_HORA_ATENDIMENTO");
+
+            Property(p => p.IdProntuario)
+                .HasColumnName("VETERINARIO_PRONTUARIO_ID");
+            Property(p => p.IdAnimal)
+                .HasColumnName("VET_ANIMAL_ID");
+
+            
+                
                 
         }
+
+
 
         protected override void ConfigurarChavePrimaria()
         {
@@ -52,7 +62,13 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
 
         protected override void ConfigurarChavesEstrangeiras()
         {
-            
+            HasRequired(p => p.Prontuario)
+               .WithMany(fk => fk.Veterinarios)
+               .HasForeignKey(fk => fk.IdProntuario);
+
+           /* HasRequired(p => p.Animal)
+                .WithMany(fk => fk.Veterinarios)
+                .HasForeignKey(fk => fk.IdAnimal);*/
         }
     }
 }

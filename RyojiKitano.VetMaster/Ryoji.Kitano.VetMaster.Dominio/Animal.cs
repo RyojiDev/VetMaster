@@ -12,6 +12,7 @@ namespace Ryoji.Kitano.VetMaster.Dominio
         public string NomeDoDono { get; set; }
 
         public virtual Veterinario Veterinario { get; set; }
+        public List<Veterinario> Veterinarios { get; set; }
         public int IdVeterinario {get; set;}
     }
 }
