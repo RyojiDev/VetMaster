@@ -49,9 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\VetMasterDBContext.cs" />
-    <Compile Include="Migrations\202004201538147_initial.cs" />
-    <Compile Include="Migrations\202004201538147_initial.Designer.cs">
-      <DependentUpon>202004201538147_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202004222346125_initi.cs" />
+    <Compile Include="Migrations\202004222346125_initi.Designer.cs">
+      <DependentUpon>202004222346125_initi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +74,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202004201538147_initial.resx">
-      <DependentUpon>202004201538147_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202004222346125_initi.resx">
+      <DependentUpon>202004222346125_initi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

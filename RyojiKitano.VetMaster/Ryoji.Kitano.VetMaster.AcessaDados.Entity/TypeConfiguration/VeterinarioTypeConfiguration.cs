@@ -66,7 +66,7 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                .WithMany(fk => fk.Veterinarios)
                .HasForeignKey(fk => fk.IdProntuario);
 
-           /* HasRequired(p => p.Animal)
+           /*HasRequired(p => p.Animal)
                 .WithMany(fk => fk.Veterinarios)
                 .HasForeignKey(fk => fk.IdAnimal);*/
         }

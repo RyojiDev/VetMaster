@@ -10,3 +10,14 @@ C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\RyojiKitano.Ace
 C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.csproj.CopyComplete
 C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.dll
 C:\Users\Iesu Sama Aishiteiru\source\repos\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.pdb
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\RyojiKitano.AcessaADados.Common.Entity.dll.config
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\RyojiKitano.AcessaADados.Common.Entity.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\RyojiKitano.AcessaADados.Common.Entity.pdb
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.csproj.CopyComplete
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.dll
+C:\Users\Iesu Sama Aishiteiru\source\repos\VetMaster\RyojiKitano.VetMaster\RyojiKitano.AcessaADados.Common.Entity\obj\Debug\RyojiKitano.AcessaADados.Common.Entity.pdb

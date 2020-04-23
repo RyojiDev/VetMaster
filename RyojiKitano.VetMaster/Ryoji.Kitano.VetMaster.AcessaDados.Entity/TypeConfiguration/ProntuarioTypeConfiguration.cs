@@ -24,6 +24,7 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                 .HasColumnName("PRT_ID");
 
             Property(p => p.AnimalAtendido)
+                .HasColumnName("ANIMALATENDIDO")
                 .HasMaxLength(40)
                 .IsRequired();
 
@@ -31,6 +32,11 @@ namespace Ryoji.Kitano.VetMaster.AcessaDados.Entity.TypeConfiguration
                 .HasColumnType("DateTime")
                 .IsRequired()
                 .HasColumnName("PRT_DATA_HORA_ATENDIMENTO");
+
+            Property(p => p.Observacoes)
+                .HasMaxLength(500)
+                .IsOptional()
+                .HasColumnName("OBSERVACOES");
 
             Property(p => p.IdVeterinario)
                 .HasColumnName("PRT_VETERINARIO_ID");
